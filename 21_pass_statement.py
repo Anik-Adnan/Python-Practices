@@ -1,0 +1,4 @@
+#impty statement
+x=18
+if x>=18:
+    pass

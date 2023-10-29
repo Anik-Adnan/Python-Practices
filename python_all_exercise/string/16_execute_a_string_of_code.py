@@ -1,0 +1,14 @@
+def exec_code():
+    LOC = """ 
+def factorial(num): 
+    fact=1 
+    for i in range(1,num+1): 
+        fact = fact*i 
+    return fact 
+print(factorial(5))  #5!=10
+"""
+    exec(LOC)
+
+
+# Driver Code
+exec_code()
